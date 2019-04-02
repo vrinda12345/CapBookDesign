@@ -1,0 +1,262 @@
+body
+{
+	font-family: 'Poppins', sans-serif;
+	background:#f2f2f2;
+}
+
+/*------------------------------------- Login Page ------------------------------------------*/
+.overlay
+{
+  height: 100%;
+  width:110%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  overflow-x: hidden;
+  background-color:#723509;
+  opacity: 0.55;
+}
+
+.overlay-content {
+  position: fixed;
+  top: 25%; /* 25% from the top */
+  left:38%;
+  width: 30%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  background-color:#fff;
+  z-index:100;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.overlay-content h4{
+	padding-top:20px;
+	font-weight: bold;
+}
+
+.overlay-content h5{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.overlay-content .btn{
+	width:100%;
+	background-color:#774409;
+	margin-bottom:10px;
+}
+
+.overlay-content .btn:hover{
+	width:100%;
+	background-color:#774409;
+	margin-bottom:10px;
+}
+
+.overlay-content a{
+	text-decoration:none;
+}
+
+.forgotPassword{
+	padding-bottom: 30px;
+}
+
+/*------------------------------------- Registration Page ------------------------------------------*/
+.registration-overlay-content {
+  position: fixed;
+  top: 0;
+  left:38%;
+  width: 30%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  background-color:#fff;
+  z-index:100;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.registration-overlay-content h4{
+	padding-top:10px;
+	font-weight: bold;
+}
+
+.registration-overlay-content h5{
+	padding-top:8px;
+	font-weight: bold;
+}
+
+.registration-overlay-content .btn{
+	width:100%;
+	background-color:#774409;
+}
+
+.registration-overlay-content .btn:hover{
+	width:100%;
+	background-color:#774409;
+}
+
+.registration-overlay-content a{
+	text-decoration:none;
+}
+
+.registration-overlay-content-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color:#2d1902;
+  color:#fcfcfc;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/*---------------------------------------- Forgot Password ----------------------------------------*/
+.fp-overlay-content {
+  position: fixed;
+  top: 25%; /* 25% from the top */
+  left:38%;
+  width: 30%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  background-color:#fff;
+  z-index:100;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.fp-overlay-content h4{
+	padding-top:20px;
+	font-weight: bold;
+}
+
+.fp-overlay-content h5{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.fp-overlay-content .btn{
+	width:100%;
+	background-color:#774409;
+	margin-bottom:10px;
+}
+
+.fp-overlay-content .btn:hover{
+	width:100%;
+	background-color:#774409;
+	margin-bottom:10px;
+}
+
+.fp-overlay-content a{
+	text-decoration:none;
+}
+
+/*---------------------------- Profile Page ----------------------------------------*/
+.left-nav{
+	background:#703a18;
+	color:#fff;
+	padding-top:30px;
+	border-radius:5px 0px;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+}
+
+.navbar a{
+	text-decoration: none;
+	color:#fff;
+	padding:8px 120px 8px 30px;
+	width:100%; 
+}
+
+.navbar-row a:hover{
+	background:#f4d733;
+	text-decoration: none;
+	color:#774409;
+	width:100%;
+	border-radius:5px;
+}
+
+.main-div{
+	margin:0px;
+	padding:0px;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:16.6%;
+}
+
+.overlay-profile
+{
+  height: 90%;
+  width:110%;
+  position:absolute;
+  z-index: 1; /* Sit on top */
+  left:16.6%;
+  top: 0;
+  overflow-x: hidden;
+  background-color:#f2f2f2;
+  opacity: 0.8;
+}
+
+.prof-overlay{
+  position: fixed;
+  top:0; /* 25% from the top */
+  left:18%;
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 25px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  background-color:#fff;
+  z-index:200;
+  padding:20px 20px 0px 20px;
+  box-shadow: 5px 5px 4px #302f2f;
+}
+
+.prof-overlay h3{
+	font-weight:bold;
+	margin:10px;
+	padding:10px;
+	text-align:center;
+	background:#f4d733;
+	border-radius:50px 35px;
+}
+
+.prof-overlay h4{
+	font-weight:bold;
+}
+
+.profile-content{
+	text-align:justify;
+}
+
+.prof-overlay img{
+	height:30%;
+	width:28%;
+	margin-left:20px;
+}
+
+.prof-overlay-2{
+  position: fixed;
+  top: 0; /* 25% from the top */
+  left:70%;
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 25px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  background-color:#fff;
+  z-index:200;
+  padding-left:20px;
+  padding-right:20px;
+  box-shadow: 5px 5px 4px #302f2f;
+}
+
+/*-------------------------- Footer --------------------------------------*/
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#2d1902;
+  color:#fcfcfc;
+  text-align: center;
+  padding-bottom: 0px;
+}
